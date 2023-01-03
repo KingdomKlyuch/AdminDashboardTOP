@@ -25,6 +25,7 @@
   .gridBox3 {
     grid-area: body;
     background-color: gray;
+    overflow: auto;
   }
   
   .gridBox4 {
