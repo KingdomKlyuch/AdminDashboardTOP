@@ -78,4 +78,21 @@
     box-sizing: border-box;
     padding: 1rem;
   }
+
+  .gridBox4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .gridbox4-flexbox1,
+  .gridbox4-flexbox2 {
+    background-color: white;
+    height: 40%;
+    width: 80%;
+  }
   
