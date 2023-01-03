@@ -1,11 +1,11 @@
 .gridBoxes {
     display: grid;
+    height: 100vh;
     grid-template-columns: 20% 80%;
-    grid-template-rows: auto 30% 30%;
+    grid-template-rows: 20% 80%;
     grid-template-areas: 
-      "header header"
+      "sidebar header"
       "sidebar body"
-      "notifications users";
   }
   
   .gridBox1 {
@@ -17,6 +17,7 @@
   .gridBox2 {
     grid-area: sidebar;
     background-color: blue;
+    min-height: 100%;
   }
   
   .gridBox3 {
