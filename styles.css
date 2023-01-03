@@ -33,13 +33,18 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
   .dashBoard {
-    font-size: 2rem;
+    font-size: 2vw;
     color:whitesmoke;
+    margin-left: 5%;
+    margin-bottom: 20%;
+    margin-top: 5%;
   }
 
   .sidebar ul li {
-    font-size: 2rem;
+    font-size: 2vw;
     color: whitesmoke;
+    margin-bottom: 10%;
+    margin-left: 8%;
   }
   
   .sidebar ul li a {
